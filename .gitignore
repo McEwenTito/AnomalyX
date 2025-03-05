@@ -169,3 +169,34 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Ignore raw datasets
+data/raw/
+data/*.csv
+data/*.parquet
+
+# Ignore large processed data
+data/processed/
+data/*.npz
+data/*.pkl
+
+
+# Ignore raw datasets
+test_data/raw/
+test_data/*.csv
+test_data/*.parquet
+
+# Ignore large processed data
+test_data/processed/
+test_data/*.npz
+test_data/*.pkl
+
+# Ignore raw datasets
+results/raw/
+results/*.csv
+results/*.parquet
+
+# Ignore large processed data
+results/processed/
+results/*.npz
+results/*.pkl
